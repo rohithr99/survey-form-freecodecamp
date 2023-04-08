@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    height: 100vh;
+    font-family: Candara, Arial, serif;
+    background-image: url(https://images.pexels.com/photos/715134/pexels-photo-715134.jpeg?cs=srgb&dl=pexels-ben-cheung-715134.jpg&fm=jpg);
+  }
+  p{
+    font-style: italic;
+  }
+  label{
+    display: block;
+    margin: 0.6rem 0;
+  }
+  input, select,textarea{
+    width: 100%;
+    margin: 5px 0 0 0;
+    font-family: Candara, serif;
+  }
+  form{
+    width: 85vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    }
+  h1, p{
+    text-align: center;
+  }
+  .inline{
+    width: unset;
+  }
+  input[type="submit"]{
+    background-color: rgb(0,180,0);
+    display: block;
+    border-color: rgb(0,180,0); 
+    border-style: solid;
+    font-size: 1.1rem;
+    width: 98%;
+    color: white;
+    font-family: Arial, serif;
+    margin: auto;
+  }
+  fieldset{
+    border-style: none;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  
